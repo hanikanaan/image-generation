@@ -21,12 +21,11 @@ const FormField = ({
           <button
             type="button"
             onClick={handleSurpriseMe}
-            className="font-semibold text-xs bg-[#EcECF1] py-1 px-2 rounded-[5px] text-black"
+            className="font-semibold text-xs bg-[#ECECF1] py-1 px-2 rounded-[5px] text-black"
           >
             Randomize Prompt
           </button>
-        )
-        }
+        )}
       </div>
       <input 
       type={type}
@@ -41,4 +40,4 @@ const FormField = ({
   )
 };
 
-export default FormField
+export default FormField;

@@ -1,4 +1,4 @@
-export const surpriseMePrompts = [
+export const randomPrompts = [
     'Picasso painting of a fat orange cat',
     'Chess board and pieces made with chicken fingers',
     'Jeremy Clarkson flying an Aston Martin over London',
