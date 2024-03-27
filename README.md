@@ -1,7 +1,20 @@
 # Image Generation Site using OpenAI's DALL-E model
 
-## Site Page
-The site can be accessed [here](https://hani-imagegeneration.com/), where anyone can go through and create custom and brand new AI-generated images, as well as share their image on the community dashboard. Note that, as the API is hosted on a shared resource, the backend shuts down regularly when inactive, so to visit the site and have it fully functioning upon doing so, it will sometimes take around 1 minute for the functionality to be fully restored.
-
-## Tools
-This project was done using the MERN stack, as well as deploying using Render.com's pipeline to host the backend, while hosting the frontend on Hostinger.com. To store the images, Cloudinary was used to upload the images and then submit them to the MongoDB Atlast instance so that they can be accessed later through the community page.
+## Running your instance
+Simply download the code and run the following:
+```shell
+npm install
+```
+Create a .env folder, and add your API keys for MongoDB, Cloudinary, and OpenAI as such:
+```javascript
+OPENAI_API_KEY="XX-XXXXXXX"
+MONGODB_URL="mongodb+srv://<yourusername>:<yourpassword>@<yourcluster>.XXXXXXX.mongodb.net/?retrywrites=true&w=majority
+CLOUDINARY_CLOUD_NAME="XXXXXXXX"
+CLOUDINARY_API_KEY="XXXXXXXXX"
+CLOUDINARY_API_SECRET="XXXXXXXX"
+```
+Finally, start your application with:
+```shell
+npm run dev
+npm run start-server
+```
